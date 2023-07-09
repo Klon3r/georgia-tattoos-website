@@ -2,7 +2,11 @@
 
 This is my first website that I have created for Georgia a tattoo artist based in Brisbane.
 
-The website contain link buttons to the following 
+Below is a screenshot of the website
+
+![Alt text](/images/website_screenshot.png?raw=true "Website Screenshot")
+
+The website contains link buttons to the following 
 - Book Now
 - Webstore
 - Instagram
@@ -10,7 +14,5 @@ The website contain link buttons to the following
 - TikTok
 - Aftercare
 
-- Screenshot of website
-![Alt text](/images/website_screenshot.png?raw=true "Website Screenshot")
-
+Created by Keiran (Klone-X)
 
