@@ -1,0 +1,43 @@
+body {
+  background-color: #F6BBED;
+}
+
+/* logo image */
+img.logo {
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  width: 200px;
+}
+
+
+button {
+  width: 200px;
+  text-align:center;
+  background-color: white;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  max-width: 100%;
+  padding: 8px 20px;
+  transition: all .5s;
+  touch-action: manipulation;
+  font-family: 'DM sans', sans-serif;
+
+}
+
+button:hover {
+  background-color: #F6BBED;
+  border-color: black;
+}
+
+div.button_div {
+  padding-left: 50px;
+}
+
+div.img_div {
+  padding-left: 50px;
+}
