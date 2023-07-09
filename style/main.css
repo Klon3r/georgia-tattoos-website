@@ -20,7 +20,7 @@ button {
   border-radius: 20px;
   box-sizing: border-box;
   cursor: pointer;
-  display: inline-block;
+  display:inline-block;
   max-width: 100%;
   padding: 15px 30px;
   transition: all .5s;
@@ -34,17 +34,20 @@ button:hover {
 }
 
 div.button_div {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 0 auto;
 }
 
 div.img_div {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 0 auto;
 }
 
 div.text_div {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 0 auto;
   font-family: 'DM sans', sans-serif;
 }
