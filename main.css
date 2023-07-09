@@ -25,7 +25,7 @@ button {
   padding: 8px 20px;
   transition: all .5s;
   touch-action: manipulation;
-  font-family: 'DM sans';
+  font-family: 'DM sans', sans-serif;
 
 }
 
