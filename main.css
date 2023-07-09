@@ -34,6 +34,10 @@ button:hover {
   border-color: black;
 }
 
-div.buttonDiv {
-  padding-left: 2px;
+div.button_div {
+  padding-left: 50px;
+}
+
+div.img_div {
+  padding-left: 50px;
 }
