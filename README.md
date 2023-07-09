@@ -14,5 +14,5 @@ The website contains link buttons to the following
 - TikTok
 - Aftercare
 
-Created by Keiran (Klone-X)
+Created by Keiran (TerminalKlone)
 
