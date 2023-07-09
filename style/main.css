@@ -7,12 +7,12 @@ img.logo {
   padding: 5px;
   background-color: white;
   border-radius: 50%;
-  width: 200px;
+  width: 150px;
 }
 
 
 button {
-  width: 200px;
+  width: 250px;
   text-align:center;
   background-color: white;
   text-align: center;
@@ -22,10 +22,11 @@ button {
   cursor: pointer;
   display: inline-block;
   max-width: 100%;
-  padding: 8px 20px;
+  padding: 15px 30px;
   transition: all .5s;
   touch-action: manipulation;
   font-family: 'DM sans', sans-serif;
+  font-size: 15px;
 }
 
 button:hover {
@@ -33,15 +34,16 @@ button:hover {
 }
 
 div.button_div {
-  margin-left: 50px;
+  margin-left: 20px;
   padding-left: 30px
 }
 
 div.img_div {
-  margin-left: 50px;
+  margin-left: 65px;
   padding-left: 30px
 }
 
 div.text_div {
-  margin-left:60px
+  margin-left:60px;
+  font-family: 'DM sans', sans-serif;
 }
