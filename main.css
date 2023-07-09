@@ -16,8 +16,8 @@ button {
   text-align:center;
   background-color: white;
   text-align: center;
-  border: 1px solid grey;
-  border-radius: 12px;
+  border: none;
+  border-radius: 20px;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
@@ -25,6 +25,7 @@ button {
   padding: 8px 20px;
   transition: all .5s;
   touch-action: manipulation;
+  font-family: 'DM sans';
 
 }
 
