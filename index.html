@@ -7,7 +7,27 @@
   <title>Georgia Tattoos</title>
 </head>
 <body>
-  <img class="logo" src="images/smile_logo.PNG" alt="Georgia Tattoos Logo">
+  <!-- mobile -->
+  <div class="mobile">
+    <img class="mobile_logo" src="images/smile_logo.PNG" alt="Georgia Tattoos Logo">
+  </div>
+  <!-- desktop -->
+  <div class="desktop">
+    <img class="desktop_logo" src="images/smile_logo.PNG" alt="Georgia Tattoos Logo">
+  </div>
+
+  <!-- custom style -->
+  <style media="all">
+    .mobile{display:none}
+    .desktop{display:block}
+    @media (max-width:800px){
+    .desktop {display:none}
+    .mobile {display:block}
+    }
+  </style>
+
+
+
   <div class="buttonDiv">
     <br>
     <!-- Booking Form -->
