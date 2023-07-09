@@ -8,6 +8,7 @@ img.logo {
   padding: 5px;
   background-color: white;
   border-radius: 50%;
+  max-width: 100%;
   
 }
 
