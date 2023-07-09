@@ -35,13 +35,16 @@ button:hover {
 
 div.button_div {
   text-align: center;
+  margin: 0 auto;
 }
 
 div.img_div {
   text-align: center;
+  margin: 0 auto;
 }
 
 div.text_div {
   text-align: center;
+  margin: 0 auto;
   font-family: 'DM sans', sans-serif;
 }
