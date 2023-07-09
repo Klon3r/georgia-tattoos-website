@@ -8,3 +8,28 @@ img.logo {
   padding: 10px;
   
 }
+
+button {
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  max-width: 100%;
+  padding: 8px 20px;
+  transition: all .5s;
+  touch-action: manipulation;
+
+}
+
+button:hover {
+  background-color: #F6BBED;
+  border-color: black;
+}
+
+div.buttonDiv {
+  padding-left: 13%;
+}
