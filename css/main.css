@@ -1,10 +1,9 @@
 body {
   background-color: #F6BBED;
-  background-image: url('../images/spiderweb_background.png');
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url('../images/spiderweb_background.png');  
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* logo image */
