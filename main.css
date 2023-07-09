@@ -3,20 +3,12 @@ body {
 }
 
 /* logo image */
-img.desktop_logo {
+img.logo {
   padding: 5px;
   background-color: white;
   border-radius: 50%;
-  width: 10%;
+  width: 200px;
 }
-
-img.mobile_logo {
-  padding: 5px;
-  background-color: white;
-  border-radius: 50%;
-  width: 100%;
-}
-
 
 
 button {
