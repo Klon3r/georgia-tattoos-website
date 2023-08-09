@@ -63,3 +63,11 @@ div.text_div {
   text-align: center;
   font-family: 'DM sans', sans-serif;
 }
+
+.homepage_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'DM sans', sans-serif;
+}
