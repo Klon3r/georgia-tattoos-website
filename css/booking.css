@@ -1,0 +1,78 @@
+body {
+    background-color: #F6BBED;
+    background-image: url('../images/spiderweb_background.png');  
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+/* logo image */
+img.logo {
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+  }
+
+div.img_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.text_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM sans', sans-serif;
+}
+
+.booking_form {
+    justify-content: center;
+    display: flex;
+    margin-left: 30px;
+}
+
+/* input fields */
+label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#input_name {
+    font-weight: bold;
+}
+
+#availability_div {
+    margin-left: 20px;
+}
+
+#fname,
+#lname,
+#prefname,
+#email,
+#number,
+#instagram {
+    padding: 3px;
+    padding-left: 5px;
+}
+
+#description_of_tattoo {
+    width: 370px;
+    height: 100px;
+    /* min-width: 370px; */
+}
+
+
+/* placeholder text */
+#fname::placeholder,
+#lname::placeholder,
+#prefname::placeholder,
+#email::placeholder,
+#number::placeholder,
+#description_of_tattoo::placeholder {
+    font-style: italic;
+}
