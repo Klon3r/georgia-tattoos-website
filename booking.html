@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/booking.css">
+  <script src="booking.js" defer></script>
   <title>Georgia Tattoos - Booking</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
     </div>
   
   <div class="booking_form">
-    <form action="https://formspree.io/f/mrgwoaye" method="post"> <!-- change action to gigi's url -->
+    <form action="https://formspree.io/f/mrgwoaye" method="post" enctype="multipart/form-data"> <!-- change action to gigi's url -->
       <!-- Name -->
-      <div id="input_name">Name: <span style="color:red">*</span></div>
+      <div id="input_name">Name: <span style="color:fuchsia">*</span></div>
       <div>
         <input type="text" id="fname" name="First Name:" placeholder="First Name" required>
         <input type="text" id="lname" name="Last Name:" placeholder="Last Name" required>
@@ -31,7 +32,7 @@
         <input type="text" id="prefname" name="Prefered Name:" placeholder="If differs from first name">
       </div>
       <!-- Pronouns -->
-      <div id="input_name">Pronouns: <span style="color:red">*</span></div>
+      <div id="input_name">Pronouns: <span style="color:fuchsia">*</span></div>
       <select id="pronouns" name="Pronouns:" required>
         <option value="" disabled selected>Select pronouns</option>
         <option value="She/Her">She/Her</option>
@@ -39,27 +40,27 @@
         <option value="They/Them">They/Them</option>
       </select>
       <!-- email -->
-      <div id="input_name">Email: <span style="color:red">*</span></div>
+      <div id="input_name">Email: <span style="color:fuchsia">*</span></div>
       <div>
         <input type="email" id="email" name="Email:" placeholder="example@gmail.com">
       </div>
       <!-- Phone Number -->
-      <div id="input_name">Phone Number: <span style="color:red">*</span></div>
+      <div id="input_name">Phone Number: <span style="color:fuchsia">*</span></div>
       <div>
         <input type="tel" id="number" name="Number:" placeholder="## #### ####" maxlength=10 required>
       </div>
       <!-- Instagram -->
-      <div id="input_name">Instagram Username: <span style="color:red">*</span></div>
+      <div id="input_name">Instagram Username: <span style="color:fuchsia">*</span></div>
       <div>
         <input type="text" id="instagram" name="Instagram Username:" placeholder="@">
       </div>
       <!-- Decription of Tattoo -->
-      <div id="input_name">Description of Tattoo: <span style="color:red">*</span></div>
+      <div id="input_name">Description of Tattoo: <span style="color:fuchsia">*</span></div>
       <div>
         <textarea id="description_of_tattoo" name="Tattoo Description:" placeholder="If you'd like several tattoos, please section with paragraphs" rows="4" cols="50" required></textarea>
       </div>
       <!-- Black & Grey or Color -->
-      <div id="input_name">Black & Grey or Color: <span style="color:red">*</span></div>
+      <div id="input_name">Black & Grey or Color: <span style="color:fuchsia">*</span></div>
       <div>
         <select id="color" name="Black & Grey or Color:" required>
           <option value="" disabled selected>Select an option</option>
@@ -68,7 +69,7 @@
         </select>
       </div>
       <!-- Will I be working around other tattoos/filling a gap? -->
-      <div id="input_name">Will I be working around other tattoos/filling a gap? <span style="color:red">*</span></div>
+      <div id="input_name">Will I be working around other tattoos/filling a gap? <span style="color:fuchsia">*</span></div>
       <div>
         <select id="work_around" name="Will I be working around other tattoos/filling a gap?" required>
           <option value="" disabled selected>Select an option</option>
@@ -77,7 +78,7 @@
         </select>
       </div>
       <!-- Availability -->
-      <div id="input_name">Availability? <span style="color:red">*</span></div>
+      <div id="input_name">Availability? <span style="color:fuchsia">*</span></div>
       <div id="availability_div">
         <div>Monday:    <input type="checkbox" id="availability" name="Monday:"></div>
         <div>Tuesday:   <input type="checkbox" id="availability" name="Tuesday:"></div>
@@ -85,10 +86,24 @@
         <div>Saturday:  <input type="checkbox" id="availability" name="Saturday"></div>
         <br>
       </div>
+      <!-- File Upload -->
+      <div id="input_name">Upload reference images below <span style="color:fuchsia">*</span></div>
+      <div>
+        <!-- Add required to this once your acocunt is upgraded -->
+        <input type="file" name="upload" id="fileInput1">
+        <input type="file" name="upload" id="fileInput2">
+        <input type="file" name="upload" id="fileInput3">
+        <input type="file" name="upload" id="fileInput4">
+        <button type="button" id="resetButton">Clear Files</button>
+      </div>
+      <br>
+      
+      <br><br>
+      
+
 
       <input type="submit" value="Submit">
       <br><br>
-      <input type="reset"> <!-- remove on release -->
     </form>
   </div>
 
