@@ -68,15 +68,6 @@
           <option value="Color">Color</option>
         </select>
       </div>
-      <!-- Will I be working around other tattoos/filling a gap? -->
-      <div id="input_name">Will I be working around other tattoos/filling a gap? <span style="color:fuchsia">*</span></div>
-      <div>
-        <select id="work_around" name="Will I be working around other tattoos/filling a gap?" required>
-          <option value="" disabled selected>Select an option</option>
-          <option value="Yes">Yes</option>
-          <option value="No">No</option>
-        </select>
-      </div>
       <!-- Availability -->
       <div id="input_name">Availability? <span style="color:fuchsia">*</span></div>
       <div id="availability_div">
@@ -84,16 +75,24 @@
         <div>Tuesday:   <input type="checkbox" id="availability" name="Tuesday:"></div>
         <div>Friday:    <input type="checkbox" id="availability" name="Friday"></div>
         <div>Saturday:  <input type="checkbox" id="availability" name="Saturday"></div>
-        <br>
+      </div>
+      <!-- Will I be working around other tattoos/filling a gap? -->
+      <div id="input_name">Will I be working around other tattoos/filling a gap? <span style="color:fuchsia">*</span></div>
+
+      <div>
+        <select id="work_around" name="Will I be working around other tattoos/filling a gap?" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        <div id="placeholder_text">(If working around a gap please provide photos)</div>
       </div>
       <!-- File Upload -->
       <div id="input_name">Upload reference images below <span style="color:fuchsia">*</span></div>
       <div>
         <!-- Add required to this once your acocunt is upgraded -->
-        <input type="file" name="upload" id="fileInput1">
-        <input type="file" name="upload" id="fileInput2">
-        <input type="file" name="upload" id="fileInput3">
-        <input type="file" name="upload" id="fileInput4">
+        <input type="file" name="upload" multiple="" id="fileInput">
+        <br><br><br>
         <button type="button" id="resetButton">Clear Files</button>
       </div>
       <br>
@@ -101,9 +100,9 @@
       <br><br>
       
 
-
-      <input type="submit" value="Submit">
-      <br><br>
+      <div id="submit_button">
+        <input type="submit" value="SUBMIT">
+      </div>
     </form>
   </div>
 
