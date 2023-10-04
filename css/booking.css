@@ -2,6 +2,7 @@
 
 * {
     font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -39,7 +40,7 @@ div.text_div {
 .booking_form {
     justify-content: center;
     display: flex;
-    margin-left: 30px;
+    margin-left: 100px;
     background-color: white;
     padding: 10px;
     width: 340px;
@@ -71,8 +72,6 @@ label {
     width: 220px;
 }
 
-
-
 #fname,
 #lname,
 #prefname,
@@ -89,6 +88,45 @@ label {
     /* min-width: 370px; */
 }
 
+#pronouns,
+#color,
+#work_around {
+    color: black;
+}
+
+#resetButton {
+    color:black;
+}
+
+input[type="submit"] {
+    color: white;
+    background: #F6BBED;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+input,
+textarea {
+    border: 1px solid lightgray;
+}
+
+input[type="file"] {
+    color: black;
+    border: 0px;
+}
+
+#submit_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* placeholder text */
 #fname::placeholder,
@@ -101,5 +139,10 @@ label {
 
 #description_of_tattoo::placeholder {
     font-style: italic;
-    font-size: 13px;
+    font-size: 16px;
+}
+
+#placeholder_text {
+    font-style: italic;
+    color: grey;
 }
