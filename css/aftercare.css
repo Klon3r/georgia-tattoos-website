@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
 body {
   background-color: #F6BBED;
-  background-image: url('../images/spiderweb_background.png');  
+  /* background-image: url('../images/spiderweb_background.png');   */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -28,12 +30,13 @@ div.text_div {
   font-family: 'DM sans', sans-serif;
 }
 
-div.main_div {
+div.main-div {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 600px;
-  /* background-color: white; */
+  padding-left: 10px;
+  padding-right: 10px
 }
 
 p {
@@ -46,7 +49,7 @@ li {
   font-size: 18px;
 }
 
-.headings, h1, h2 {
+.headings, h2, h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #000000;
@@ -63,11 +66,55 @@ ul {
   padding-left: 1em;
 }
 
-h1 {
+.logo-name {
   font-size: 25px;
-  text-align: left;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 30px;
+}
+
+.product-img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: black;
+}
+
+.main-background {
+  background-color: white;
+}
+
+.homepage_button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'DM sans', sans-serif;
+}
+
+button {
+  margin-top: 10px;
+  color: black;
+  font-size: 15px;;
+}
+
+.home-button-div {
+  display: flex;
+  justify-content: center;
+  
 }
