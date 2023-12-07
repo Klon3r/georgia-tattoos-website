@@ -1,0 +1,73 @@
+body {
+  background-color: #F6BBED;
+  background-image: url('../images/spiderweb_background.png');  
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* logo image */
+img.logo {
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+}
+
+div.img_div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.text_div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'DM sans', sans-serif;
+}
+
+div.main_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+  /* background-color: white; */
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.headings, h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 30px;
+}
