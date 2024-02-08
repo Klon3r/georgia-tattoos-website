@@ -11,6 +11,7 @@ body {
 
 /* logo image */
 img.logo {
+  margin-top: 2em;
   padding: 5px;
   background-color: white;
   border-radius: 50%;
@@ -19,6 +20,8 @@ img.logo {
 
 h2 {
   font-size: 1.8em;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 button {
@@ -54,6 +57,9 @@ button:hover {
 }
 
 div.button_div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
   justify-content: center;
   align-items: center;
   text-align: center;
